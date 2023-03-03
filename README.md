@@ -1,1 +1,1 @@
-# ProjetOC2
+# booki-starter-pack
