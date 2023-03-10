@@ -597,11 +597,14 @@ body {
         margin-top: 5px;
     }
 
-    .hebergements-cards {
+    .hebergements-cards,
+    .populaires-cards,
+    .activities-cards {
         flex-direction: column;
     }
     
-    .hebergements-cards .card {
+    .hebergements-cards .card,
+    .populaires-cards .card {
         width: 100%;
         margin-top: 10px;
     }
@@ -615,24 +618,11 @@ body {
         order: 1;
         margin-top: 0;
     }
-
-    .populaires-cards {
-        flex-direction: column;
-    }
-
-    .populaires-cards .card {
-        width: 100%;
-        margin-top: 10px;
-    }
     
     /* Activités */
     .activities {
         margin: 0;
         margin: 55px 30px 65px 30px;
-    }
-
-    .activities-cards {
-        flex-direction: column;
     }
 
     .activities-cards .card {
