@@ -133,7 +133,6 @@ body {
     border: 1px solid #F2F2F2;
     font-size: 18px;
     font-weight: 700;
-    text-align: center;
 }
 
 .search-button-large {
@@ -485,14 +484,20 @@ body {
         margin-top: 30px;
     }
 
-    /* Search */
     .search {
-        margin-left: 20px;
-        width: 335px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
     }
 
     .search-text {
         position: relative;
+    }
+
+    /* Search */
+    .search-text input {
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
     }
 
     .search-button-large {
@@ -511,7 +516,7 @@ body {
         font-weight: 700;
         height: 46px;
         top: 0px;
-        right: -20px;
+        right: -1px;
     }
 
     .search-button-small i {
@@ -540,7 +545,7 @@ body {
     .filters-button {
         width: 45%;
         flex-direction: row;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     /* Infos */
