@@ -397,6 +397,11 @@ body {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    .filters-button {
+        font-size: 70%;
+    }
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -434,7 +439,7 @@ body {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     /* Main */
     .main-container {
         padding: 0;
@@ -545,7 +550,7 @@ body {
     .filters-button {
         width: 45%;
         flex-direction: row;
-        font-size: 12px;
+        font-size: 11px;
     }
 
     /* Infos */
