@@ -52,7 +52,6 @@ body {
     width: 61px;
     height: 19px;
     padding-top: 30px;
-    margin-left: 30px;
 }
 
 .nav {
@@ -94,7 +93,7 @@ body {
 }
 
 .main-title {
-    margin: 50px 50px 35px 50px;
+    margin: 50px 0px 35px;
 }
 
 .main-title h1 {
@@ -108,7 +107,6 @@ body {
 
 /****** Search ***********/
 .search {
-    margin-left: 50px;
     margin-bottom: 35px;
 }
 
@@ -153,7 +151,6 @@ body {
 .filters {
     justify-content: flex-start;
     margin-bottom: 30px;
-    margin-left: 50px;
 }
 
 .filters-title {
@@ -189,7 +186,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 35px;
-    margin-left: 50px;
 }
 
 .info-logements i {
@@ -233,7 +229,7 @@ body {
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
-    margin: 35px 50px 0px 50px;
+    margin-top: 35px;
 }
 
 .hebergements-and-populaires section {
@@ -337,7 +333,7 @@ body {
 
 /****** Activités ***********/
 .activities {
-    margin: 65px 80px 0px 80px;
+    margin: 65px 30px 0px;
 }
 
 .activities-cards {
@@ -371,7 +367,7 @@ body {
     align-items: flex-start;
     background: var(--main-bg-color);
     padding: 20px;
-    margin: 65px 50px 0px 50px;
+    margin-top: 65px;
 }
 
 .footer .categorie {
@@ -399,7 +395,7 @@ body {
 @media (max-width: 1024px) {
 
     .filters-button {
-        font-size: 70%;
+        font-size: 83%;
     }
     
     .hebergements-and-populaires {
@@ -550,7 +546,7 @@ body {
     .filters-button {
         width: 45%;
         flex-direction: row;
-        font-size: 11px;
+        font-size: 74%;
     }
 
     /* Infos */
