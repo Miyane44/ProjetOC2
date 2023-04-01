@@ -127,13 +127,18 @@ body {
 }
 
 .search-text input {
-    height: 46px;
+    height: 48px;
     border: 1px solid #F2F2F2;
     font-size: 18px;
     font-weight: 700;
 }
 
+.search-text input:focus {
+    outline: none;
+}
+
 .search-button {
+    position: absolute;
     padding: 15px 16px 15px 16px;
     background: var(--main-color);
     border: 1px solid var(--main-color);
@@ -506,7 +511,6 @@ body {
     }
     
     .search-button {
-        position: absolute;
         display: flex;
         flex-direction: row;
         align-items: center;
