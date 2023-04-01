@@ -133,8 +133,8 @@ body {
     font-weight: 700;
 }
 
-.search-button-large {
-    padding: 15px 16px;
+.search-button {
+    padding: 15px 16px 15px 16px;
     background: var(--main-color);
     border: 1px solid var(--main-color);
     border-radius: 0px 15px 15px 0px;
@@ -143,7 +143,7 @@ body {
     height: 46px;
 }
 
-.search-button-small {
+.search-button i {
     display: none;
 }
 
@@ -501,11 +501,11 @@ body {
         border-bottom-right-radius: 16px;
     }
 
-    .search-button-large {
+    .search-button span {
         display: none;
     }
     
-    .search-button-small {
+    .search-button {
         position: absolute;
         display: flex;
         flex-direction: row;
@@ -520,7 +520,8 @@ body {
         right: -1px;
     }
 
-    .search-button-small i {
+    .search-button i {
+        display: initial;
         color: #FFFFFF;
     }
 
